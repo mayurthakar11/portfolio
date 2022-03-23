@@ -493,3 +493,9 @@ footer hr {
 
 
 /* end social icon */
+
+@media(max-width:767px) {
+    #contact ul {
+        margin-bottom: 50px;
+    }
+}

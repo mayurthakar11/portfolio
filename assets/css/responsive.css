@@ -11,9 +11,6 @@
     .abput .about-img {
         margin-bottom: 30px
     }
-    .container {
-        padding: 24px
-    }
     .about .about-img {
         min-height: 500px;
         margin-bottom: 15px
@@ -45,6 +42,9 @@
     }
     .profile {
         display: none
+    }
+    .resume {
+        padding-top: 50px;
     }
     .section-title {
         padding: 20px 0
@@ -109,9 +109,6 @@
     .breadcrumbs .d-flex {
         display: block!important
     }
-    .resume {
-        padding-top: 50px;
-    }
     .breadcrumbs ol {
         display: block
     }
@@ -130,11 +127,11 @@
     .glitch-img-warp {
         margin: 15px auto
     }
-    .container {
-        padding: 12px
-    }
     section {
-        padding: 6px 0
+        padding: 50px 0;
+    }
+    section.contact {
+        padding-bottom: 0;
     }
     .resume .resume-title {
         margin: 10px;

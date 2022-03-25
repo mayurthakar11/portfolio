@@ -3,14 +3,14 @@
 
 <head>
     <!-- Title of The Page -->
-    <title>Gaspar | Personal Portfolio HTML Template</title>
+    <title>Mayur Thakar</title>
     <!-- Meta Informations -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon">
+    <!-- <link href="assets/img/favicon.png" rel="icon"> -->
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -71,7 +71,6 @@
                     <div class="row">
                         <div class="col-12 wow bounceInUp" data-wow-duration="3s">
                             <div class="hero-img">
-                                <img src="assets/images/home-bg.jpg" alt="">
                             </div>
                         </div>
                         <div class="col-12 wow bounceInDown" data-wow-duration="3s">
@@ -97,6 +96,7 @@
                         <div class="col-xl-4 col-md-12 d-flex align-items-stretch justify-content-center justify-content-lg-start wow rollIn" data-wow-duration="2s">
                             <div class="about-img">
                                 <div class="image">
+                                    <img src="assets/images/about-bg.jpg">
                                 </div>
                             </div>
                         </div>
@@ -254,33 +254,40 @@
             <!-- ======= My Portfolio Section ======= -->
             <section id="portfolio" class="portfolio">
                 <div class="container wow fadeInUp" data-wow-duration="1.5s">
-
-                    <div class="section-title wow fadeInDown" data-wow-duration="2s">
-                        <span>My Portfolio</span>
-                        <h2>My Portfolio</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                    <div class="row portfolio-container">
-                        <div class="col-lg-4 col-sm-6 portfolio-item filter-app">
-                            <div class="portfolio-img wow bounceInLeft" data-wow-duration="2.5s"><img src="assets/images/portfolio-img1.jpg" class="img-fluid" alt=""></div>
-                        </div>
-                        <div class="col-lg-4 col-sm-6 portfolio-item filter-app">
-                            <div class="portfolio-img wow bounceInLeft" data-wow-duration="2.5s"><img src="assets/images/portfolio-img2.jpg" class="img-fluid" alt=""></div>
-                        </div>
-                        <div class="col-lg-4 col-sm-6 portfolio-item filter-app">
-                            <div class="portfolio-img wow bounceInLeft" data-wow-duration="2.5s"><img src="assets/images/portfolio-img3.jpg" class="img-fluid" alt=""></div>
-                        </div>
-                        <div class="col-lg-4 col-sm-6 portfolio-item filter-app">
-                            <div class="portfolio-img wow bounceInLeft" data-wow-duration="2.5s"><img src="assets/images/portfolio-img4.jpg" class="img-fluid" alt=""></div>
-                        </div>
-                        <div class="col-lg-4 col-sm-6 portfolio-item filter-app">
-                            <div class="portfolio-img wow bounceInLeft" data-wow-duration="2.5s"><img src="assets/images/portfolio-img5.jpg" class="img-fluid" alt=""></div>
-                        </div>
-                        <div class="col-lg-4 col-sm-6 portfolio-item filter-app">
-                            <div class="portfolio-img wow bounceInLeft" data-wow-duration="2.5s"><img src="assets/images/portfolio-img6.jpg" class="img-fluid" alt=""></div>
-                        </div>
-                        <div class="col-lg-4 col-sm-6 portfolio-item filter-app">
-                            <div class="portfolio-img wow bounceInLeft" data-wow-duration="2.5s"><img src="assets/images/portfolio-img7.jpg" class="img-fluid" alt=""></div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="section-title wow fadeInDown" data-wow-duration="2s">
+                                <span>My Portfolio</span>
+                                <h2>My Portfolio</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                            <div class="portfolio-container grid">
+                                <div class="grid-sizer"></div>
+                                <div class="grid-item wow bounceInLeft" data-wow-duration="2.5s">
+                                    <img src="assets/images/portfolio-img1.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="grid-item wow bounceInLeft" data-wow-duration="2.5s">
+                                    <img src="assets/images/portfolio-img2.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="grid-item wow bounceInLeft" data-wow-duration="2.5s">
+                                    <img src="assets/images/portfolio-img3.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="grid-item wow bounceInLeft" data-wow-duration="2.5s">
+                                    <img src="assets/images/portfolio-img4.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="grid-item wow bounceInLeft" data-wow-duration="2.5s">
+                                    <img src="assets/images/portfolio-img5.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="grid-item wow bounceInLeft" data-wow-duration="2.5s">
+                                    <img src="assets/images/portfolio-img6.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="grid-item wow bounceInLeft" data-wow-duration="2.5s">
+                                    <img src="assets/images/portfolio-img7.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="grid-item wow bounceInLeft" data-wow-duration="2.5s">
+                                    <img src="assets/images/portfolio-img8.jpg" class="img-fluid" alt="">
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -343,6 +350,8 @@
         <div class="mouse-cursor cursor-inner"></div>
         <!-- Mouse-Cursor End-->
     </div>
+    <!-- Jquery JS-->
+    <script src="assets/js/jquery.min.js"></script>
     <!-- Purecounter JS-->
     <script src="assets/js/purecounter.js"></script>
     <!-- Bootstrap JS-->
@@ -350,11 +359,9 @@
     <!-- Glightbox Js-->
     <script src="assets/js/glightbox.min.js"></script>
     <!-- Isotope JS-->
-    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/isotope.js"></script>
     <!-- Noframework JS-->
     <script src="assets/js/noframework.waypoints.js"></script>
-    <!-- Jquery JS-->
-    <script src="assets/js/jquery.min.js"></script>
     <!-- Wow JS-->
     <script src="assets/js/wow.min.js"></script>
     <!-- typed JS-->

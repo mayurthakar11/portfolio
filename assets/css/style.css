@@ -331,7 +331,11 @@ img {
     height: 1px;
 }
 
-.navbar li img {
+.navbar .logo {
+    display: none;
+}
+
+.navbar .logo img {
     max-width: 60px;
 }
 

@@ -30,6 +30,9 @@
 }
 
 @media only screen and (max-width:991px) {
+    .navbar .logo {
+        display: block;
+    }
     #main {
         margin: 0;
         width: 100%

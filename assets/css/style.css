@@ -705,41 +705,22 @@ section+section {
     width: 100%
 }
 
-.about .skills-content .progress {
-    height: 60px;
-    display: block;
-    background: 0 0;
-    width: 100%;
-    padding: 0 15px;
-    border-radius: 0
+.about .skill-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.about .skills-content .progress .skill {
-    margin: 0 0 6px 0;
-    text-transform: uppercase;
-    display: block;
-    font-size: 14px;
-    font-weight: 700;
-    font-family: Lato, sans-serif;
-    color: #888
+.about .skill-list li {
+    width: 33.3%;
+    list-style: none;
+    color: #fff9;
+    margin-top: 15px;
 }
 
-.about .skills-content .progress .skill .val {
-    float: right;
-    font-style: normal
-}
-
-.about .skills-content .progress-bar-wrap {
-    background: #e6e8eb;
-    border-radius: 20px
-}
-
-.about .skills-content .progress-bar {
-    width: 1px;
-    height: 10px;
-    border-radius: 20px;
-    transition: 3.9s;
-    background-color: #eba154
+.about .skill-list li i {
+    margin-right: 10px;
 }
 
 .resume {

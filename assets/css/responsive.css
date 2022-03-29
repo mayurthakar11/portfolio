@@ -98,6 +98,9 @@
     .about .skills-content {
         display: block;
     }
+    .about .skill-list li {
+        width: 50%;
+    }
     .about .content ul li {
         margin-bottom: 10px
     }

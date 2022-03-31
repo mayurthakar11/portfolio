@@ -86,7 +86,7 @@ img {
     width: 50%;
     height: 100%;
     z-index: -1;
-    background-color: #0a1b3e;
+    background-color: #ffffff;
     -webkit-transition: all .3s ease 0s;
     -o-transition: all .3s ease 0s;
     transition: all .3s ease 0s
@@ -712,7 +712,7 @@ section+section {
 .about .skill-list li {
     width: 33.3%;
     list-style: none;
-    color: #0a1b3e9;
+    color: #0a1b3e;
     margin-top: 15px;
 }
 
@@ -1025,8 +1025,9 @@ ul.page-numbers li.active a {
 .portfolio-container.grid .grid-item {
     width: 33.3%;
     list-style-type: none;
-    padding: 5px;
+    padding: 15px;
     display: block;
+    border-radius: 10px;
 }
 
 .portfolio-container.grid .grid-item a {
@@ -1035,9 +1036,16 @@ ul.page-numbers li.active a {
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 0px 10px 15px rgb(0 0 0 / 50%);
+    border-radius: 10px;
 }
 
-.portfolio-container.grid .grid-item a::after {
+.portfolio-container.grid .grid-item .image {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.portfolio-container.grid .grid-item .image:after {
     content: '';
     position: absolute;
     top: 0;
@@ -1048,18 +1056,17 @@ ul.page-numbers li.active a {
     width: 100%;
     background: rgba(0, 0, 0, .4);
     text-align: center;
-    opacity: 0;
     transition: all .3s ease-in-out;
-    transform: scale(0);
+    border-radius: 10px;
 }
 
 .portfolio-container.grid .grid-item a i {
     position: absolute;
-    height: 50px;
-    width: 50px;
-    line-height: 50px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
     background: #eba154;
-    font-size: 16px;
+    font-size: 14px;
     color: #ffffff;
     display: inline-block;
     text-align: center;
@@ -1069,9 +1076,8 @@ ul.page-numbers li.active a {
     transition: all .5s ease-in-out;
 }
 
-@media only screen and (min-width:1200px) {
-    .portfolio-container.grid .grid-item a:hover i,
-    .portfolio-container.grid .grid-item a:hover:after {
+@media (min-width:1200px) {
+    .portfolio-container.grid .grid-item a:hover i {
         opacity: 1;
         transform: scale(1);
     }

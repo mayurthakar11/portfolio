@@ -404,7 +404,7 @@ img {
 }
 
 .mobile-nav-toggle {
-    color: #eba154;
+    color: #0a1b3e;
     font-size: 28px;
     cursor: pointer;
     display: none;
@@ -499,9 +499,9 @@ img {
     margin: 20px auto;
     background: center;
     overflow: hidden;
-    background-image: url(../images/home-bg.svg);
+    background-image: url(../images/home-bg.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     height: 500px;
     width: 800px;
 }
